@@ -62,6 +62,20 @@ Expected timeline:
 The goals of [Exercises 5](exercises05-SDS383D.pdf) are to practice fitting hierarchical regression models with a simple two-level grouping structure.  
 
 
+## Exercises 6: Linear smoothing and Gaussian processes  
+
+The goal of [Exercises 6](exercises06-SDS383D.pdf) is to equip you with some simple building blocks for nonlinear curve fitting and smoothing.  Yes, it turns out that "linear smoothing" is used for nonlinear curve fitting.  This sounds like a contradiction, but you'll see what it entails and why it makes sense.  Here both Bayesian and frequentist approaches feature equally.  Linear smoothers lead us to Gaussian processes, a natural class of Bayesian models for a random function or spatial process.
+
+In the interests of pacing, you are not required to complete the "basic concepts" section at the beginning.  If there's time, I will present this material in class.  
+
+Expected timeline:  
+- By April 6: Curve fitting by linear smoothing, cross validation.  Note that to keep the workload from getting unreasonable, I've made the proof of the "leave one out lemma" optional.  
+- By April 11: Local polynomical regression, A-D  
+- By April 13: Local polynomical regression, E-G   
+- By April 18: Gaussian processes, In nonparametric regression and spatial smoothing A-C  
+- By April 20: In nonparametric regression and spatial smoothing, D-F  
+
+
 <!-- 
 ## Exercises 2: Bayes and the Gaussian linear model  
 
@@ -70,7 +84,7 @@ The goal of [Exercises 2](exercises02-SDS383D.pdf) is to get you comfortable wit
 
 ## Exercises 3: Linear smoothing and Gaussian processes
 
-The goal of [Exercises 3](exercises03-SDS383D.pdf) is to equip you with some simple building blocks for nonlinear curve fitting.  Yes, it turns out that "linear smoothing" is used for nonlinear curve fitting -- this sounds like a contradiction, but you'll see what it entails and why it makes sense.  Here both Bayesian and frequentist approaches feature equally.  
+
 
 There are a handful of optional problems in these exercises (clearly marked), which I will present in class myself. 
 
