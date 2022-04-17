@@ -6,12 +6,12 @@ bldg = bldg %>% dplyr::select(
   c("Rent","leasing_rate","green_rating","City_Market_Rent","age","class_a","class_b")
 ) %>% dplyr::mutate(revenue_per_sqft=Rent*leasing_rate/100)
 
-n = nrow(bldg)
+d = 1
 X = cbind(rep(1,n),as.matrix(bldg%>%dplyr::select(
   !c("Rent","leasing_rate","revenue_per_sqft"))))
 p = ncol(X)
+n = nrow(X)
 K = diag(rep(0.01,p))
-d = 1
 eta = d
 y = as.matrix(bldg$revenue_per_sqft)
 m = rep(0,p)

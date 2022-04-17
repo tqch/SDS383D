@@ -182,3 +182,5 @@ TSWLatexianTemp*
 
 # customized
 mysol/*.tex
+mysol/figs
+*.zip
